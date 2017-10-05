@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BudgetCalc</string>
+    <string name="monthly_income">Monthly Income</string>
+    <string name="pay_wage">Pay/Wage</string>
+    <string name="mobthly_savings">Monthly Savings</string>
+    <string name="general_savings">General Savings</string>
+    <string name="emergency_fund">Emergency Fund</string>
+    <string name="monthly_expenses">Monthly Expenses</string>
+    <string name="housing">Housing</string>
+    <string name="utilities">Utilities</string>
+    <string name="phone">Phone</string>
+    <string name="food">Food</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="health">Health</string>
+    <string name="car_insurance">Car Insurance</string>
+    <string name="car_payments">Car Payments</string>
+    <string name="gas">Gas</string>
+    <string name="personal">Personal</string>
+    <string name="shopping">Shopping</string>
+    <string name="button_text">Calculate</string>
+    <string name="budget">Budget</string>
+    <string name="annual_salary">Annual Salary</string>
+    <string name="annual_general_sav">Annual General Savings</string>
+    <string name="annual_emergency">Annual Emergency Funds</string>
+    <string name="total_monthly_expenses">Total Monthly Expenses</string>
+    <string name="results">Results</string>
+    <string name="savigns_losses">Savings/Losses</string>
+    <string name="back">Back to form</string>
+</resources>
