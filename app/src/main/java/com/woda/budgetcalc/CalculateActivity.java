@@ -1,9 +1,12 @@
 package com.woda.budgetcalc;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.graphics.Color;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.GridLayout;
 import android.widget.TextView;
@@ -21,7 +24,18 @@ public class CalculateActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculate);
+        //getActionBar().setDisplayHomeAsUpEnabled(true);
 
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     //This way all of the information is not lost
@@ -75,9 +89,6 @@ public class CalculateActivity extends AppCompatActivity {
         makeChart(totalExpenses);
     }
 
-    public void goBack(View view){
-        finish();
-    }
     //Makes the pie chart and puts it into the view
     private void makeChart(int totalExpenses){
 

@@ -11,20 +11,6 @@
         android:layout_height="wrap_content"
         android:fillViewport="true">
 
-        <Button
-            android:id="@+id/recalcButton"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="8dp"
-            android:onClick="goBack"
-            android:text="@string/back"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/budget6" />
-
         <GridLayout
             android:id="@+id/budget1"
             android:layout_width="match_parent"
